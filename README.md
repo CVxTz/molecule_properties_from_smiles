@@ -42,7 +42,7 @@ curl -X POST "http://0.0.0.0:8080/predict/" -H  "accept: application/json" -H  "
 ```
 #### CLI
 
-##### Predict property for a single Smile:
+##### Predict property for a single Smiles:
 ```
 smiles_mol predict --model_path ~/PycharmProjects/molecule_properties_from_smiles/models/rnn.ckpt \
                    --encoding integer_sequence \
